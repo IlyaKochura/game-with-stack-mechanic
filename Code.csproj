@@ -48,18 +48,15 @@
      <Compile Include="Assets\Code\Movement\PlayerMovementSystem.cs" />
      <Compile Include="Assets\Code\Movement\MovableSystem.cs" />
      <Compile Include="Assets\Code\Stack\Contracts\IStackObject.cs" />
-     <Compile Include="Assets\Code\Animation\Systems\PlayerAnimationSystem.cs" />
      <Compile Include="Assets\Code\Movement\CTransform.cs" />
      <Compile Include="Assets\Code\Input\Touchscreen\SimpleMoveTouchController.cs" />
      <Compile Include="Assets\Code\ObjectPool\ObjectPool.cs" />
      <Compile Include="Assets\Code\Stack\Components\CMonoStack.cs" />
      <Compile Include="Assets\Code\Movement\CMonoPlayerControlled.cs" />
-     <Compile Include="Assets\Code\Animation\Components\CAnimation.cs" />
      <Compile Include="Assets\Code\EcsInit\Initialize.cs" />
      <Compile Include="Assets\Code\Input\MoveInputSystem.cs" />
      <Compile Include="Assets\Code\Stack\Components\CStack.cs" />
      <Compile Include="Assets\Code\Stack\Components\CStackInteract.cs" />
-     <Compile Include="Assets\Code\Animation\Components\CMonoAnimation.cs" />
      <Compile Include="Assets\Code\Input\CMoveInputEvent.cs" />
      <Compile Include="Assets\Code\Movement\CMonoMovable.cs" />
      <Compile Include="Assets\Code\ObjectPool\Contracts\IObjectPool.cs" />
@@ -73,7 +70,6 @@
      <Compile Include="Assets\Code\Stack\StackSystem.cs" />
      <Compile Include="Assets\Code\Input\MovableInputProvider.cs" />
      <Compile Include="Assets\Code\Movement\CMonoTransform.cs" />
-     <Folder Include="Assets\Code\Animation\Systems" />
      <Folder Include="Assets\Code\EcsInit" />
      <Folder Include="Assets\Code\Stack\Components" />
      <Folder Include="Assets\Code\Stack\StackControllers" />
@@ -81,12 +77,10 @@
      <Folder Include="Assets\Code\Input\Touchscreen" />
      <Folder Include="Assets\Code\Input" />
      <Folder Include="Assets\Code\Movement" />
-     <Folder Include="Assets\Code\Animation" />
      <Folder Include="Assets\Code" />
      <Folder Include="Assets\Code\ObjectPool\Contracts" />
      <None Include="Assets\Code\Code.asmdef" />
      <Folder Include="Assets\Code\ObjectPool" />
-     <Folder Include="Assets\Code\Animation\Components" />
      <Folder Include="Assets\Code\Stack\Contracts" />
      <Reference Include="UnityEngine">
      <HintPath>D:\UnityEngine\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

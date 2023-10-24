@@ -1,5 +1,4 @@
 using AB_Utility.FromSceneToEntityConverter;
-using Code.Animation.Systems;
 using Code.Input;
 using Code.Movement;
 using Code.Stack;
@@ -45,8 +44,7 @@ namespace Code.EcsInit
             RegisterInput();
             RegisterMovement();
             RegisterStack();
-            RegisterAnimation();
-            
+
             _systems.Init ();
         }
         
@@ -90,11 +88,6 @@ namespace Code.EcsInit
             _systems.Add(new StackAutoSpawnSystem(_ballPrefab, _objectPool));
         }
 
-        private void RegisterAnimation()
-        {
-            _systems.Add(new PlayerAnimationSystem(_movableInputProvider));
-        }
-        
         void OnDestroy()
         {
             if (_systems != null) {
