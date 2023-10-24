@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code", "Code.csproj", "{8406b45c-9ba0-70ce-9199-17dc1a705be1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.supremestranger.leoecs-lite-physics", "com.supremestranger.leoecs-lite-physics.csproj", "{cf15d410-f2a8-7fa2-56fe-50711549328b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoEcsLiteEntityConverter", "LeoEcsLiteEntityConverter.csproj", "{a53fd6e1-67dd-052f-ff51-145f2710c235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{861f988b-8afc-91ea-2299-738c4e55d67a}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8406b45c-9ba0-70ce-9199-17dc1a705be1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8406b45c-9ba0-70ce-9199-17dc1a705be1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{cf15d410-f2a8-7fa2-56fe-50711549328b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{cf15d410-f2a8-7fa2-56fe-50711549328b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a53fd6e1-67dd-052f-ff51-145f2710c235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a53fd6e1-67dd-052f-ff51-145f2710c235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861f988b-8afc-91ea-2299-738c4e55d67a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861f988b-8afc-91ea-2299-738c4e55d67a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
